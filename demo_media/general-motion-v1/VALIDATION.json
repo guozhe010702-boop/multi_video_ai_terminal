@@ -1,0 +1,145 @@
+{
+  "pack": "general-motion-v1",
+  "recorded_utc": "2026-11-06T03:54:55.802276+00:00",
+  "original_clip_count": 9,
+  "unique_channel_count": 8,
+  "total_playback_seconds": 706.766017,
+  "normalized_video_bytes": 225942769,
+  "model_and_detection_alarm_storage_settings_unchanged": true,
+  "warmup_seconds": 15,
+  "sample_seconds": 180.01600000000053,
+  "process_ids": [
+    2628
+  ],
+  "total_detect_fps": 133.28259710247937,
+  "preview_received_fps": 15.004221846946894,
+  "unhealthy_channel_samples": 0,
+  "sampling_errors": [],
+  "channels": [
+    {
+      "id": 0,
+      "name": "Street",
+      "average_detect_fps": 16.648520131543815,
+      "loop_generation_advance": 4,
+      "decode_fps_mean": 29.99599969932306,
+      "maximum_objects_in_a_sample": 27,
+      "error_samples": 0,
+      "decoder": "h264_rkmpp",
+      "pixel_format": "DRM_PRIME/NV12"
+    },
+    {
+      "id": 1,
+      "name": "Traffic",
+      "average_detect_fps": 16.665185316860676,
+      "loop_generation_advance": 1,
+      "decode_fps_mean": 30.007062796229338,
+      "maximum_objects_in_a_sample": 12,
+      "error_samples": 0,
+      "decoder": "hevc_rkmpp",
+      "pixel_format": "DRM_PRIME/NV12"
+    },
+    {
+      "id": 2,
+      "name": "Indoor",
+      "average_detect_fps": 16.665185316860676,
+      "loop_generation_advance": 1,
+      "decode_fps_mean": 30.001534002301202,
+      "maximum_objects_in_a_sample": 4,
+      "error_samples": 0,
+      "decoder": "h264_rkmpp",
+      "pixel_format": "DRM_PRIME/NV12"
+    },
+    {
+      "id": 3,
+      "name": "Kitchen",
+      "average_detect_fps": 16.6540751933161,
+      "loop_generation_advance": 3,
+      "decode_fps_mean": 30.001541191949713,
+      "maximum_objects_in_a_sample": 12,
+      "error_samples": 0,
+      "decoder": "hevc_rkmpp",
+      "pixel_format": "DRM_PRIME/NV12"
+    },
+    {
+      "id": 4,
+      "name": "Cats",
+      "average_detect_fps": 16.665185316860676,
+      "loop_generation_advance": 2,
+      "decode_fps_mean": 30.00154641911407,
+      "maximum_objects_in_a_sample": 2,
+      "error_samples": 0,
+      "decoder": "h264_rkmpp",
+      "pixel_format": "DRM_PRIME/NV12"
+    },
+    {
+      "id": 5,
+      "name": "Dogs",
+      "average_detect_fps": 16.67074037863296,
+      "loop_generation_advance": 2,
+      "decode_fps_mean": 30.00705759680247,
+      "maximum_objects_in_a_sample": 2,
+      "error_samples": 0,
+      "decoder": "hevc_rkmpp",
+      "pixel_format": "DRM_PRIME/NV12"
+    },
+    {
+      "id": 6,
+      "name": "Birds",
+      "average_detect_fps": 16.6540751933161,
+      "loop_generation_advance": 3,
+      "decode_fps_mean": 30.007083828332615,
+      "maximum_objects_in_a_sample": 6,
+      "error_samples": 0,
+      "decoder": "h264_rkmpp",
+      "pixel_format": "DRM_PRIME/NV12"
+    },
+    {
+      "id": 7,
+      "name": "Sports",
+      "average_detect_fps": 16.659630255088388,
+      "loop_generation_advance": 3,
+      "decode_fps_mean": 30.012638366113446,
+      "maximum_objects_in_a_sample": 17,
+      "error_samples": 0,
+      "decoder": "hevc_rkmpp",
+      "pixel_format": "DRM_PRIME/NV12"
+    }
+  ],
+  "full_video_decode_passed": true,
+  "all_video_interiors_changed": true,
+  "hdmi": {
+    "hdmi": {
+      "player_pid": 2679,
+      "boot_id": "d161b444-a1e4-4e8a-85c5-949df197e3e0",
+      "window": 16777226,
+      "geometry": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "cpu_ticks_advanced": 71,
+      "pixel_signatures": [
+        "d7bfc9d71a6fe91dd7a778106b2853a1100ecc48258da1677a5775135ac8669b",
+        "9f7834e0ec2233e96d2d5d4c27cffe7026f3cad39e8b6e97471c50be88be1739"
+      ],
+      "pixels_changed": true
+    },
+    "boot_id": "d161b444-a1e4-4e8a-85c5-949df197e3e0",
+    "old_service_active": "inactive",
+    "old_service_enabled": "enabled"
+  },
+  "config_backup": "/userdata/multi_video_ai_terminal/runtime/data/config-backups/before-demo-20261106-114948-76f4584a.json",
+  "board_cpu_mean_pct": 21.074172884396503,
+  "process_rss_peak_mb": 174.91015625,
+  "temperature_peak_c": 49.0,
+  "known_accuracy_observations": [
+    {
+      "channel": 5,
+      "observation": "Visual spot check: the dog in the beach clip was labeled horse (91%) in this captured frame.",
+      "image": "demo-media-v1-mosaic.jpg"
+    }
+  ],
+  "scope": "180-second functional/media verification, not 30-minute performance acceptance or two-hour stability acceptance; no annotated accuracy benchmark.",
+  "passed": true
+}

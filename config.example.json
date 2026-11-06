@@ -1,0 +1,94 @@
+{
+  "listen": "0.0.0.0",
+  "port": 8090,
+  "model": "models/yolov8n/model.rknn",
+  "labels": "models/yolov8n/classes.txt",
+  "confidence": 0.35,
+  "nms": 0.45,
+  "preview_fps": 15,
+  "data_dir": "data",
+  "retention_days": 7,
+  "snapshot_limit_mb": 2048,
+  "channels": [
+    {
+      "id": 0,
+      "name": "Camera 1",
+      "source": "rtsp://127.0.0.1:8556/cam1",
+      "enabled": false,
+      "loop": true,
+      "alarm_classes": [
+        "person"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Camera 2",
+      "source": "rtsp://127.0.0.1:8556/cam2",
+      "enabled": false,
+      "loop": true,
+      "alarm_classes": [
+        "person"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Camera 3",
+      "source": "rtsp://127.0.0.1:8556/cam3",
+      "enabled": false,
+      "loop": true,
+      "alarm_classes": [
+        "person"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Camera 4",
+      "source": "rtsp://127.0.0.1:8556/cam4",
+      "enabled": false,
+      "loop": true,
+      "alarm_classes": [
+        "person"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Camera 5",
+      "source": "rtsp://127.0.0.1:8556/cam5",
+      "enabled": false,
+      "loop": true,
+      "alarm_classes": [
+        "person"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Camera 6",
+      "source": "rtsp://127.0.0.1:8556/cam6",
+      "enabled": false,
+      "loop": true,
+      "alarm_classes": [
+        "person"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Camera 7",
+      "source": "rtsp://127.0.0.1:8556/cam7",
+      "enabled": false,
+      "loop": true,
+      "alarm_classes": [
+        "person"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Camera 8",
+      "source": "rtsp://127.0.0.1:8556/cam8",
+      "enabled": false,
+      "loop": true,
+      "alarm_classes": [
+        "person"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "pack": "general-motion-v1",
+  "videos": [
+    {
+      "channel": 0,
+      "name": "Street",
+      "file": "street.mp4",
+      "signature": {
+        "sources": [
+          "street-01"
+        ],
+        "codec": "h264",
+        "profile": "1080p30-letterbox-muted-crf25-v1"
+      },
+      "sha256": "a2a78d07ea6c0869a9468e42fc3e2d19699bdfebacf90e7707405fee3035f0e8",
+      "bytes": 27286550,
+      "duration_seconds": 40.266016,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "channel": 1,
+      "name": "Traffic",
+      "file": "traffic.mp4",
+      "signature": {
+        "sources": [
+          "traffic-01"
+        ],
+        "codec": "hevc",
+        "profile": "1080p30-letterbox-muted-crf25-v1"
+      },
+      "sha256": "c598aeb09ea1c5e7809907962701803d0c30bd3ff4806c23007870be926da9f9",
+      "bytes": 28322630,
+      "duration_seconds": 159.866667,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "hevc",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "channel": 2,
+      "name": "Indoor",
+      "file": "indoor.mp4",
+      "signature": {
+        "sources": [
+          "indoor-01"
+        ],
+        "codec": "h264",
+        "profile": "1080p30-letterbox-muted-crf25-v1"
+      },
+      "sha256": "788d7ab2f93630c8f2556cae639be83181e743b5accc732b0f791e93872ce51a",
+      "bytes": 25300809,
+      "duration_seconds": 160.966667,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "channel": 3,
+      "name": "Kitchen",
+      "file": "kitchen.mp4",
+      "signature": {
+        "sources": [
+          "kitchen-01"
+        ],
+        "codec": "hevc",
+        "profile": "1080p30-letterbox-muted-crf25-v1"
+      },
+      "sha256": "11137253c0b5b43daa11872344056942fea23dfbfb92ab766766629b2dfc8e07",
+      "bytes": 9977712,
+      "duration_seconds": 60.1,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "hevc",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "channel": 4,
+      "name": "Cats",
+      "file": "cats.mp4",
+      "signature": {
+        "sources": [
+          "cats-01"
+        ],
+        "codec": "h264",
+        "profile": "1080p30-letterbox-muted-crf25-v1"
+      },
+      "sha256": "88ff11380b44fc3e4316ad097f4e9ad24f4e16c05797c9db26f83bbbcc3424ec",
+      "bytes": 27470011,
+      "duration_seconds": 79.3,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "channel": 5,
+      "name": "Dogs",
+      "file": "dogs.mp4",
+      "signature": {
+        "sources": [
+          "dogs-01"
+        ],
+        "codec": "hevc",
+        "profile": "1080p30-letterbox-muted-crf25-v1"
+      },
+      "sha256": "7b9eae1e293cd56b31c929493cfb06588e4260e5a6ce4a593a77829775221319",
+      "bytes": 22816431,
+      "duration_seconds": 76.966667,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "hevc",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "channel": 6,
+      "name": "Birds",
+      "file": "birds.mp4",
+      "signature": {
+        "sources": [
+          "birds-01",
+          "birds-02"
+        ],
+        "codec": "h264",
+        "profile": "1080p30-letterbox-muted-crf25-v1"
+      },
+      "sha256": "edede8d1d739d0a7c920ac3f6c75e7a2f034723158b184bb6bbc7c3b8c5a81fa",
+      "bytes": 71722538,
+      "duration_seconds": 69.266667,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "channel": 7,
+      "name": "Sports",
+      "file": "sports.mp4",
+      "signature": {
+        "sources": [
+          "sports-01"
+        ],
+        "codec": "hevc",
+        "profile": "1080p30-letterbox-muted-crf25-v1"
+      },
+      "sha256": "3bc0ae48e00b15314faf8495a5ffe37c3f001dca7d807905586e7b990ba0a413",
+      "bytes": 13046088,
+      "duration_seconds": 60.033333,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "hevc",
+      "pixel_format": "yuv420p"
+    }
+  ],
+  "ffmpeg_version": "ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+}

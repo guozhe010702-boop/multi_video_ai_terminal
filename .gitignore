@@ -1,0 +1,10 @@
+/.deps/
+/build/
+/runtime/
+/models/
+/data/
+/releases/
+/config.json
+/vendor/httplib.h
+/vendor/nlohmann/
+__pycache__/

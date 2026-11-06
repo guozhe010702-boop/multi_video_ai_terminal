@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>多路视频 AI 分析终端</title><link rel="stylesheet" href="/style.css?v=1.1.0"></head>
+<body>
+<header><div><span class="eyebrow">RK3588 · EDGE VISION</span><h1>多路视频 AI 分析终端</h1></div><div class="actions"><span id="connection" class="badge">连接中</span><button id="settings">通道配置</button></div></header>
+<main>
+<div id="error" role="alert" hidden></div>
+<section class="overview" aria-label="设备性能"><article><small>有效检测总帧率</small><strong id="total-fps">—</strong><span>FPS · 完成推理及后处理</span></article><article><small>多路预览输出</small><strong id="mosaic-fps">—</strong><span>FPS · 目标 15</span></article><article><small>CPU / 内存</small><strong id="cpu">—</strong><span id="memory">不可用</span></article><article><small>NPU 三核利用率</small><strong id="npu">—</strong><span id="temperature">温度不可用</span></article></section>
+<section class="panel"><div class="section-title"><h2 id="preview-title">八路实时分析</h2><span><span id="channel-summary">8 路容量</span> · YOLOv8n · 640 × 640</span></div><img id="preview" src="/stream/mosaic.mjpg" alt="八路实时检测画面"><div id="channels" class="channel-grid"></div></section>
+<section class="panel"><div class="section-title"><h2>事件记录</h2><div class="actions"><select id="event-channel" aria-label="筛选事件通道"><option value="-1">全部通道</option></select><button id="refresh-events">刷新</button></div></div><p id="storage" class="muted"></p><div class="table-wrap"><table><thead><tr><th>时间</th><th>通道</th><th>类型</th><th>描述</th><th>现场截图</th></tr></thead><tbody id="events"></tbody></table></div><button id="more-events">加载更早事件</button></section>
+</main>
+<dialog id="config-dialog"><form id="config-form"><div class="section-title"><h2>通道配置</h2><button type="button" id="close-config">关闭</button></div><p class="muted">支持 RTSP 地址或开发板本地文件路径。保存后应用到对应通道。</p><div id="config-channels"></div><div class="form-row"><label>检测置信度<input id="confidence" type="number" min="0.01" max="0.99" step="0.01" required></label><label>NMS 阈值<input id="nms-threshold" type="number" min="0.01" max="0.99" step="0.01" required></label></div><p id="config-error" role="alert"></p><button type="submit" class="primary">保存并应用</button></form></dialog>
+<script src="/app.js?v=1.1.0" defer></script>
+</body></html>

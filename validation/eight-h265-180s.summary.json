@@ -1,0 +1,36 @@
+{
+  "seconds": 180.0,
+  "requested_seconds": 180,
+  "completed": true,
+  "channel_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "average_detect_fps": [
+    16.261111111111113,
+    16.322222222222223,
+    16.122222222222224,
+    16.38888888888889,
+    16.516666666666666,
+    16.33888888888889,
+    16.344444444444445,
+    16.35
+  ],
+  "total_detect_fps": 130.64444444444445,
+  "required_fps": null,
+  "process_ids": [
+    2003
+  ],
+  "performance_target_met": null,
+  "unhealthy_channel_samples": 0,
+  "preview_received_fps": 14.855555555555556,
+  "preview_errors": [],
+  "sampling_errors": [],
+  "passed": true
+}

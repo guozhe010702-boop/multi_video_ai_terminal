@@ -1,0 +1,262 @@
+{
+  "pack": "general-motion-v1",
+  "created_utc": "2026-11-06T03:49:08.961023+00:00",
+  "purpose": "Real-motion mixed-scene demonstration; no ground-truth annotations or accuracy claim.",
+  "transform": "Full source clips, aspect-preserving letterbox to 1920x1080, 30 fps, muted; birds concatenate two distinct sources.",
+  "source_fps_note": "Container-reported frame rates can be unreliable for these WebM files; they are retained as metadata, not claimed as measured native FPS.",
+  "assets": [
+    {
+      "title": "Pedestrians in Buchanan Street, Glasgow.webm",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Pedestrians_in_Buchanan_Street%2C_Glasgow.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pedestrians_in_Buchanan_Street,_Glasgow.webm",
+      "source_bytes": 397370821,
+      "width": 1920,
+      "height": 1080,
+      "duration": 40.283,
+      "author": "Learning, Teaching and Web Services, the University of Edinburgh.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "description": "Pedestrians_in_Buchanan_Street,_Glasgow_(Source)",
+      "sha256": "c7fb23b34e6bfbd1b44be33ad723b40be4e7d6173785a0d6fe79b948aa960b8e",
+      "id": "street-01",
+      "file": "street-01.webm",
+      "container_reported_avg_frame_rate": "25000/1",
+      "original_codec": "vp8"
+    },
+    {
+      "title": "Cars driving at night.webm",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Cars_driving_at_night.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cars_driving_at_night.webm",
+      "source_bytes": 113584348,
+      "width": 1920,
+      "height": 1080,
+      "duration": 159.869,
+      "author": "https://www.youtube.com/user/Editor",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "description": "Cars on a highway driving around a bend at night",
+      "sha256": "3dfc2c1ae60762e45ea68bc417695cc25a4fde5fcd771d4e3f8e59b0f2f7e9f8",
+      "id": "traffic-01",
+      "file": "traffic-01.webm",
+      "container_reported_avg_frame_rate": "1000/1",
+      "original_codec": "vp8"
+    },
+    {
+      "title": "Cleaning the Office (TESDA).webm",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Cleaning_the_Office_%28TESDA%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cleaning_the_Office_(TESDA).webm",
+      "source_bytes": 11510045,
+      "width": 854,
+      "height": 478,
+      "duration": 161.02100000000002,
+      "author": "TESDA Online Program",
+      "license": "Public domain",
+      "license_url": "",
+      "description": "Cleaning the Office",
+      "sha256": "116e1fe984dc24f6499e33f199247c657e7531907604c54d25d70e1aecba22f7",
+      "id": "indoor-01",
+      "file": "indoor-01.webm",
+      "container_reported_avg_frame_rate": "27187/1134",
+      "original_codec": "vp9"
+    },
+    {
+      "title": "COMREL Cooking Demonstration (1015886).webm",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/COMREL_Cooking_Demonstration_%281015886%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_page": "https://commons.wikimedia.org/wiki/File:COMREL_Cooking_Demonstration_(1015886).webm",
+      "source_bytes": 17588217,
+      "width": 1920,
+      "height": 1080,
+      "duration": 60.102000000000004,
+      "author": "U.S. Navy video by Petty Officer 2nd Class Eloise Johnson",
+      "license": "Public domain",
+      "license_url": "",
+      "description": "NAVAL AIR STATION SIGONELLA, Italy (May 19, 2026) Video highlights a cooking demonstration at a local school as part of a community relations event for service members stationed at Naval Air Station (NAS) Sigonella. American Forces Network Sigonella is a Navy-operated American Forces radio and television service station that provides host command and military information, local and world news, sports and entertainment programming for service members, their families, and Department Of War personnel assigned to NAS Sigonella. (U.S. Navy video by Mass Communication Specialist 2nd Class Eloise A. Johnson)",
+      "sha256": "32e24c075d50baef74283815683a083379ac9f6b5f2d8fadcbfb1d5e5b93d290",
+      "id": "kitchen-01",
+      "file": "kitchen-01.webm",
+      "container_reported_avg_frame_rate": "24000/1001",
+      "original_codec": "av1"
+    },
+    {
+      "title": "Cat behaviour - self-grooming.webm",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Cat_behaviour_-_self-grooming.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
+      "source_bytes": 15779377,
+      "width": 1280,
+      "height": 720,
+      "duration": 79.3,
+      "author": "Learnerktm",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "description": "Cat self-grooms",
+      "sha256": "2e036e054a7bdf554e86700507884ac63941e90bd0cfe4f717d464be6a42fd8c",
+      "id": "cats-01",
+      "file": "cats-01.webm",
+      "container_reported_avg_frame_rate": "30/1",
+      "original_codec": "vp9"
+    },
+    {
+      "title": "A Happy Dog on a Papuan Beach.webm",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/A_Happy_Dog_on_a_Papuan_Beach.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_Happy_Dog_on_a_Papuan_Beach.webm",
+      "source_bytes": 100346560,
+      "width": 1920,
+      "height": 1080,
+      "duration": 76.968,
+      "author": "Joaquim Baeta",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "description": "On a beach several hours from Nabire, Central Papua, a dog soaks up the sun and cool water of Cenderawasih Bay. If you listen to the second shot, you will also hear another of our inane conversations, roughly going as follows:\nLelly: Well, if the... ocean is this clear, then I won't be afraid... of the dark. But we'll see... aah, look at that dog. He's so happy. Hello [greeting the dog].\nJoaquim: According to research, Hunny Buns, the most emotionally balanced people live near the ocean.\nL: Because they have enough food?\nJ: No, no, the ocean has a calming effect on them. [something unintelligible follows]\n\nI don't remember what research it was that I read to back up that statement, but I can at least anecdotally attest to the effect the ocean has on this human spirit.",
+      "sha256": "e5a69416e0c1e34c8e7acf029cc02000ea27616b0316022e79520f3b99e53661",
+      "id": "dogs-01",
+      "file": "dogs-01.webm",
+      "container_reported_avg_frame_rate": "24000/1001",
+      "original_codec": "vp9"
+    },
+    {
+      "title": "20240222 ring necked ducks keeney cove.webm",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/20240222_ring_necked_ducks_keeney_cove.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20240222_ring_necked_ducks_keeney_cove.webm",
+      "source_bytes": 71107112,
+      "width": 3840,
+      "height": 2160,
+      "duration": 38.065,
+      "author": "Paul Danese",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Ring-Necked Ducks, Keeney Cove, Glastonbury, CT USA",
+      "sha256": "d259cc1251a07084bda2aaa8d2b684a3c60cf46704b60661473889a3b20fe572",
+      "id": "birds-01",
+      "file": "birds-01.webm",
+      "container_reported_avg_frame_rate": "19001/317",
+      "original_codec": "vp9"
+    },
+    {
+      "title": "Family of ducks 001.ogv",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Family_of_ducks_001.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Family_of_ducks_001.ogv",
+      "source_bytes": 149130266,
+      "width": 1920,
+      "height": 1080,
+      "duration": 31.252607709750567,
+      "author": "geraldshields11",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "description": "A family of ducks cleaning themselves",
+      "sha256": "2ec8b34c2c554abaec761eaf6c0d30b5693457bb9eb029d4c97b27b818a732ad",
+      "id": "birds-02",
+      "file": "birds-02.ogv",
+      "container_reported_avg_frame_rate": "30/1",
+      "original_codec": "theora"
+    },
+    {
+      "title": "Varsity Military Basketball League of Europe (1021231).webm",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Varsity_Military_Basketball_League_of_Europe_%281021231%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Varsity_Military_Basketball_League_of_Europe_(1021231).webm",
+      "source_bytes": 24494512,
+      "width": 1920,
+      "height": 1080,
+      "duration": 60.026,
+      "author": "U.S. Army video by Staff Sgt. Rebekah Wall",
+      "license": "Public domain",
+      "license_url": "",
+      "description": "The Varsity Military Basketball League of Europe gives service members stationed across Europe an opportunity to compete in basketball, build camaraderie and strengthen morale. (U.S. Army video by Staff Sgt. Rebekah Wall)",
+      "sha256": "7f69380524d47419d25ac99076951f6baa683e4e2ef151734bdbc456368b2b4b",
+      "id": "sports-01",
+      "file": "sports-01.webm",
+      "container_reported_avg_frame_rate": "30000/1001",
+      "original_codec": "av1"
+    }
+  ],
+  "channels": [
+    {
+      "id": 0,
+      "name": "Street",
+      "file": "street.mp4",
+      "codec": "h264",
+      "sources": [
+        "street-01"
+      ],
+      "output_license": "CC BY-SA 3.0",
+      "output_license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": 1,
+      "name": "Traffic",
+      "file": "traffic.mp4",
+      "codec": "hevc",
+      "sources": [
+        "traffic-01"
+      ],
+      "output_license": "CC BY 3.0",
+      "output_license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "id": 2,
+      "name": "Indoor",
+      "file": "indoor.mp4",
+      "codec": "h264",
+      "sources": [
+        "indoor-01"
+      ],
+      "output_license": "Public domain",
+      "output_license_url": ""
+    },
+    {
+      "id": 3,
+      "name": "Kitchen",
+      "file": "kitchen.mp4",
+      "codec": "hevc",
+      "sources": [
+        "kitchen-01"
+      ],
+      "output_license": "Public domain",
+      "output_license_url": ""
+    },
+    {
+      "id": 4,
+      "name": "Cats",
+      "file": "cats.mp4",
+      "codec": "h264",
+      "sources": [
+        "cats-01"
+      ],
+      "output_license": "CC BY 4.0",
+      "output_license_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "id": 5,
+      "name": "Dogs",
+      "file": "dogs.mp4",
+      "codec": "hevc",
+      "sources": [
+        "dogs-01"
+      ],
+      "output_license": "CC BY 4.0",
+      "output_license_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "id": 6,
+      "name": "Birds",
+      "file": "birds.mp4",
+      "codec": "h264",
+      "sources": [
+        "birds-01",
+        "birds-02"
+      ],
+      "output_license": "CC BY-SA 4.0",
+      "output_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": 7,
+      "name": "Sports",
+      "file": "sports.mp4",
+      "codec": "hevc",
+      "sources": [
+        "sports-01"
+      ],
+      "output_license": "Public domain",
+      "output_license_url": ""
+    }
+  ]
+}

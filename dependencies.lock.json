@@ -1,0 +1,56 @@
+{
+  "vendor/httplib.h": {
+    "source": "https://raw.githubusercontent.com/yhirose/cpp-httplib/v0.18.3/httplib.h",
+    "sha256": "a0a0c13dc086663863dbe6730a19716f7d3744904b6205496e8301750814dbd5"
+  },
+  "vendor/nlohmann/json.hpp": {
+    "source": "https://raw.githubusercontent.com/nlohmann/json/v3.11.3/single_include/nlohmann/json.hpp",
+    "sha256": "9bea4c8066ef4a1c206b2be5a36302f8926f7fdc6087af5d20b417d0cf103ea6"
+  },
+  "vendor/licenses/httplib.txt": {
+    "source": "https://raw.githubusercontent.com/yhirose/cpp-httplib/v0.18.3/LICENSE",
+    "sha256": "4b45cbe16d7b71b89ae6127e26e0d90a029198ca5e958ad8e3d0b8bbed364d8b"
+  },
+  "vendor/licenses/json.txt": {
+    "source": "https://raw.githubusercontent.com/nlohmann/json/v3.11.3/LICENSE.MIT",
+    "sha256": "86b998c792894ccb911a1cb7994f7a9652894e7a094c0b5e45be2f553f45cf14"
+  },
+  "sqlite": {
+    "source": "https://www.sqlite.org/2025/sqlite-amalgamation-3490100.zip",
+    "sha256": "6cebd1d8403fc58c30e93939b246f3e6e58d0765a5cd50546f16c00fd805d2c3"
+  },
+  "vendor/yolo/postprocess.cc": {
+    "source": "C:\\Users\\dvsense_docker\\Desktop\\work\\RK3588\\av_dev\\edgevision -yolov8\\部署\\RK3588\\c_tuili\\examples\\yolov8\\cpp\\postprocess.cc",
+    "sha256": "0dd10b4d7c305467bf24941a681b95672a5edd720596722d33d36da53ec0ea48"
+  },
+  "vendor/yolo/postprocess.h": {
+    "source": "C:\\Users\\dvsense_docker\\Desktop\\work\\RK3588\\av_dev\\edgevision -yolov8\\部署\\RK3588\\c_tuili\\examples\\yolov8\\cpp\\postprocess.h",
+    "sha256": "21aade603d956194031572eb76bf25b12a65a283e10133a4c1ab1f541d5e6be4"
+  },
+  "vendor/yolo/yolov8.h": {
+    "source": "C:\\Users\\dvsense_docker\\Desktop\\work\\RK3588\\av_dev\\edgevision -yolov8\\部署\\RK3588\\c_tuili\\examples\\yolov8\\cpp\\yolov8.h",
+    "sha256": "a4b27f639e034023a3981f91004384244b0f83d35dea5e1e565e8cefc32fa3cf"
+  },
+  "multimedia_sdk": {
+    "ffmpeg": {
+      "url": "https://github.com/nyanmisaka/ffmpeg-rockchip.git",
+      "branch": "master",
+      "commit": "d90e3a1c18d7929383cf88c1b3da2e2d1c966cbf"
+    },
+    "mpp": {
+      "url": "https://gitee.com/nyanmisaka/mpp.git",
+      "branch": "jellyfin-mpp",
+      "commit": "a9380ef333102ac318628f83b5f7a460d377749e"
+    },
+    "rga": {
+      "url": "https://gitee.com/nyanmisaka/rga.git",
+      "branch": "jellyfin-rga",
+      "commit": "1d330cc28551943bed3380261a5a9c6fbd58ff53"
+    },
+    "mediamtx": {
+      "version": "v1.21.2",
+      "url": "https://github.com/bluenviron/mediamtx/releases/download/v1.21.2/mediamtx_v1.21.2_linux_arm64.tar.gz",
+      "sha256": "180a235374a548d9133cdd5e20f5dbd8b01317be1c86e0d7e66df585dc42ed6f"
+    }
+  }
+}
